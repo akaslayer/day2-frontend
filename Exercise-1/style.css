@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/modern-no-20');
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
+body {
+  background-color: #f4f5f7;
+}
+header {
+  width: 100%;
+  background-color: #c4c4c4;
+  line-height: 19.07px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav h1 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+}
+
+header nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  align-items: center;
+  height: 50px;
+}
+
+header nav .navBar {
+  display: flex;
+  align-items: center;
+  gap: 16.17px;
+  justify-content: center;
+}
+
+header nav .navBar ul {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.navBar h2 {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.bag {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.prada .navBar2 nav {
+  display: flex;
+  justify-content: center;
+}
+
+.prada h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  font-family: 'Modern No. 20', sans-serif;
+  margin-bottom: 19px;
+}
+
+.prada img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.image1 {
+  display: flex;
+  justify-content: center;
+  padding: 18px 90px;
+}
+
+.navBar2 nav ul {
+  display: flex;
+  gap: 66px;
+}
+
+.navBar2 nav ul li {
+  display: flex;
+  list-style-type: none;
+  font-family: 'Modern No. 20', sans-serif;
+  font-size: 18px;
+}
+.description {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 41px;
+}
+
+.description h2 {
+  font-size: 36px;
+  font-family: 'Modern No. 20', sans-serif;
+  text-align: center;
+  font-weight: 200;
+  margin: 0px;
+}
+
+.description p {
+  text-align: center;
+  width: 30%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 13px 0px;
+}
+
+.description button {
+  font-weight: 600px;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 15px 50px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.color {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #848484;
+  margin-bottom: 0px;
+}
+
+.goods {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.goods-desc {
+  margin-left: 40px;
+}
+.arrivals h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.arrivals .card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.card-item {
+  padding: 0px 81px;
+}
+.card-item img {
+  width: 100%;
+  background-color: white;
+}
+
+.grid-collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 100px;
+}
+
+.grid-collections-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 250px;
+}
+
+.grid-collections-items h2 {
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+.grid-collections-items p {
+  font-weight: 400;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 37px;
+}
+
+.grid-collections-items button {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 15px 50px;
+  width: 200px;
+}
+
+.grid-collections-image {
+  padding-top: 74px;
+  padding-bottom: 0px;
+}
+
+.grid-collections-image img {
+  width: 100%;
+}
+
+.arrivals h4 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 71px;
+}
+
+.girl--pic {
+  margin-top: 156px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0px 102px;
+}
+
+.girl--pic img {
+  width: 100%;
+}
+
+.girl--pic .girl-add {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 2%;
+  right: 10%;
+}
+
+.girl--pic .girl-add button {
+  background-color: white;
+  font-size: 14px;
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 42px;
+}
+
+.grid-footer {
+  margin-top: 27px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0px 120px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.footer-item ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  padding: 0;
+  gap: 12px;
+}
+
+.footer-item ul li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-item h1 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 43px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.storeLocator {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.storeLocator h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+}
+
+.storeLocator img {
+  width: 15px;
+  height: 15px;
+}
